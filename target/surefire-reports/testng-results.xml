@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="23111" started-at="2019-07-25T19:03:42 EDT" finished-at="2019-07-25T19:04:05 EDT">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="23111" started-at="2019-07-25T19:03:42 EDT" finished-at="2019-07-25T19:04:05 EDT">
+      <class name="com.upgrade.apitests.StateAPITests">
+        <test-method status="PASS" signature="givenEndPoint_whenRequested_thenPGeorgiaIsWithMinLoanAmount3005()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="givenEndPoint_whenRequested_thenPGeorgiaIsWithMinLoanAmount3005" duration-ms="2568" started-at="2019-07-25T19:04:00 EDT" finished-at="2019-07-25T19:04:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenEndPoint_whenRequested_thenPGeorgiaIsWithMinLoanAmount3005 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-25T19:04:03 EDT" finished-at="2019-07-25T19:04:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=givenEndPoint_whenRequested_thenPGeorgiaIsWithMinLoanAmount3005 status=SUCCESS method=StateAPITests.givenEndPoint_whenRequested_thenPGeorgiaIsWithMinLoanAmount3005()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="givenEndPoint_whenRequested_thenPrintStateWhereMinAge19()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="givenEndPoint_whenRequested_thenPrintStateWhereMinAge19" duration-ms="909" started-at="2019-07-25T19:04:03 EDT" finished-at="2019-07-25T19:04:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenEndPoint_whenRequested_thenPrintStateWhereMinAge19 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-25T19:04:04 EDT" finished-at="2019-07-25T19:04:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=givenEndPoint_whenRequested_thenPrintStateWhereMinAge19 status=SUCCESS method=StateAPITests.givenEndPoint_whenRequested_thenPrintStateWhereMinAge19()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyThatAllValidStatesCanBeFoundWithCount48()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="verifyThatAllValidStatesCanBeFoundWithCount48" duration-ms="808" started-at="2019-07-25T19:04:04 EDT" finished-at="2019-07-25T19:04:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatAllValidStatesCanBeFoundWithCount48 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-25T19:04:05 EDT" finished-at="2019-07-25T19:04:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatAllValidStatesCanBeFoundWithCount48 status=SUCCESS method=StateAPITests.verifyThatAllValidStatesCanBeFoundWithCount48()[pri:0, instance:com.upgrade.apitests.StateAPITests@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.upgrade.apitests.StateAPITests -->
+      <class name="com.upgrade.uitests.UpgradePersonalLoanTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.upgrade.uitests.UpgradePersonalLoanTests@d8355a8]" name="setUp" is-config="true" duration-ms="3453" started-at="2019-07-25T19:03:42 EDT" finished-at="2019-07-25T19:03:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_loanAmount_APR_monthlyPaymentCorrectlyDisplayedAfterLogin(com.upgrade.data.ClientInfo)[pri:0, instance:com.upgrade.uitests.UpgradePersonalLoanTests@d8355a8]" name="test_loanAmount_APR_monthlyPaymentCorrectlyDisplayedAfterLogin" duration-ms="15129" started-at="2019-07-25T19:03:45 EDT" data-provider="clientData" finished-at="2019-07-25T19:04:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.upgrade.data.ClientInfo@f316aeb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loanAmount_APR_monthlyPaymentCorrectlyDisplayedAfterLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.upgrade.uitests.UpgradePersonalLoanTests@d8355a8]" name="afterMethod" is-config="true" duration-ms="204" started-at="2019-07-25T19:04:00 EDT" finished-at="2019-07-25T19:04:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_loanAmount_APR_monthlyPaymentCorrectlyDisplayedAfterLogin status=SUCCESS method=UpgradePersonalLoanTests.test_loanAmount_APR_monthlyPaymentCorrectlyDisplayedAfterLogin(com.upgrade.data.ClientInfo)[pri:0, instance:com.upgrade.uitests.UpgradePersonalLoanTests@d8355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.upgrade.uitests.UpgradePersonalLoanTests -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

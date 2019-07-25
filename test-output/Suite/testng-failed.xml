@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="upgradetest.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="upgradetest.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="verifySearchButton"/>
+        </methods>
+      </class> <!-- upgradetest.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
